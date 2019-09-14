@@ -1,0 +1,52 @@
+{
+	"for-volume": "bdr:V4CZ5369_I1KG9128",
+	"spec-version": "0.1",
+	"version-uuid": "860f508e-608e-484d-9fc3-62392fab0b12",
+	"attribution": "data contributed by rKTs",
+	"note": "not sure about the order of page 2",
+	"changes-history": [
+		{
+			"timestamp": 1568463794,
+			"user": "bdr:U0002",
+			"log": "initial version"
+		}
+	],
+	"pagination": {
+		"default": {
+			"type": "potifolios"
+
+		}
+	},
+	"image-info": [
+		{
+			"subtype": "cover",
+			"filename": "I1KG9128000.tif"
+		},
+		{
+			"subtype": "blank",
+			"filename": "I1KG9128001.tif",
+			"pagination": "1a"
+		},
+		{
+			"subtype": "title",
+			"thumbnail": true,
+			"filename": "I1KG9128001.tif",
+			"pagination": "1b"
+		},
+		{
+			"filename": "I1KG9128001.tif",
+			"pagination": "1'a"
+		},
+		{
+			"type": "missing",
+			"subtype": "from-scan",
+			"pagination": "1'b"
+		},
+		{
+			"type": "duplicate",
+			"subtype": "from-scan",
+			"display": false,
+			"pagination": "1'a"
+		}
+	]
+}
