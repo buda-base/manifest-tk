@@ -35,16 +35,17 @@
 		},
 		{
 			"filename": "I1KG9128004.tif",
-			"pagination": "1'a"
+			"pagination": "1'a",
+			"rotation": 180,
+			"rotation-reason": "scan",
+			"note": [
+				"rotating 180° because of the scan being upside down"
+			]
 		},
 		{
 			"type": "missing",
 			"subtype": "from-scan",
-			"pagination": "1'b",
-			"note": [
-				"interesting page",
-				"yeah, quite so"
-			]
+			"pagination": "1'b"
 		},
 		{
 			"type": "duplicate",
