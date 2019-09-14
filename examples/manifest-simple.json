@@ -20,21 +20,21 @@
 	"image-info": [
 		{
 			"subtype": "cover",
-			"filename": "I1KG9128000.tif"
+			"filename": "I1KG9128001.tif"
 		},
 		{
 			"subtype": "blank",
-			"filename": "I1KG9128001.tif",
+			"filename": "I1KG9128002.tif",
 			"pagination": "1a"
 		},
 		{
 			"subtype": "title",
 			"thumbnail": true,
-			"filename": "I1KG9128001.tif",
+			"filename": "I1KG9128003.tif",
 			"pagination": "1b"
 		},
 		{
-			"filename": "I1KG9128001.tif",
+			"filename": "I1KG9128004.tif",
 			"pagination": "1'a"
 		},
 		{
@@ -44,9 +44,10 @@
 		},
 		{
 			"type": "duplicate",
+			"filename": "I1KG9128005.tif",
 			"subtype": "from-scan",
 			"display": false,
-			"pagination": "1'a"
+			"of-file": "I1KG9128004.tif"
 		}
 	]
 }
