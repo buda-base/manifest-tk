@@ -1,0 +1,23 @@
+{
+	"image-info": [
+		{
+			"subtype": "multiple",
+			"filename": "I1KG9128001.tif",
+			"display": false
+		},
+		{
+			"id": "I1KG9128001-01",
+			"subtype": "area",
+			"of-file": "I1KG9128002.tif",
+			"pagination": "1a",
+			"area": [123, 345, 567, 789]
+		},
+		{
+			"id": "I1KG9128001-02",
+			"subtype": "area",
+			"of-file": "I1KG9128002.tif",
+			"pagination": "1b",
+			"area": [123, 345, 567, 789]
+		}
+	]
+}
