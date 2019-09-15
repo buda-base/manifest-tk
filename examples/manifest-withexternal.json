@@ -1,0 +1,23 @@
+{
+	"image-info": [
+		{
+			"type": "ext",
+			"subtype": "other-vol",
+			"ext": "bdr:VI1KG9128/I1KG9128001.tif",
+			"pagination": "1a"
+		},
+		{
+			"type": "ext",
+			"subtype": "iiif-canvas",
+			"ext": "https://iiifpres.bdrc.io/v:bdr:V22334_I3867/canvas/38670001.tif",
+			"pagination": "1b"
+		},
+		{
+			"type": "ext",
+			"subtype": "iiif-service",
+			"thumbnail": true,
+			"filename": "https://iiif.bdrc.io/bdr:V22334_I3867::38670001.tif/info.json",
+			"pagination": "2a"
+		}
+	]
+}
