@@ -3,6 +3,7 @@
 	"spec-version": "0.1.0",
 	"rev": "860f508e-608e-484d-9fc3-62392fab0b12",
 	"attribution": "data contributed by rKTs",
+	"default-string-lang": "en",
 	"note": "not sure about the order of page 2",
 	"changes-history": [
 		{
