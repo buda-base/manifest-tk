@@ -17,7 +17,8 @@
 			"subtype": "area",
 			"of-file": "I1KG9128002.tif",
 			"pagination": "1b",
-			"area": [123, 345, 567, 789]
+			"area": [123, 345, 567, 789],
+			"rotation": 90
 		}
 	]
 }
