@@ -13,47 +13,53 @@
 		}
 	],
 	"pagination": {
-		"default": {
-			"type": "potifolios"
-
+		"folios1": {
+			"type": "potifolios",
+			"name": "original pagination"
 		}
 	},
-	"image-info": [
-		{
-			"subtype": "cover",
-			"filename": "I1KG9128001.tif"
-		},
-		{
-			"subtype": "blank",
-			"filename": "I1KG9128002.tif",
-			"pagination": "1a"
-		},
-		{
-			"subtype": "title",
-			"thumbnail": true,
-			"filename": "I1KG9128003.tif",
-			"pagination": "1b"
-		},
-		{
-			"filename": "I1KG9128004.tif",
-			"pagination": "1'a",
-			"rotation": 180,
-			"rotation-reason": "scan",
-			"note": [
-				"rotating 180° because of the scan being upside down"
+	"pagination-default": "folios1",
+	"view-default": "view1",
+	"view": {
+		"view1": {
+			"imagelist": [
+				{
+					"subtype": "cover",
+					"filename": "I1KG9128001.tif"
+				},
+				{
+					"subtype": "blank",
+					"filename": "I1KG9128002.tif",
+					"pagination": "1a"
+				},
+				{
+					"subtype": "title",
+					"thumbnail": true,
+					"filename": "I1KG9128003.tif",
+					"pagination": "1b"
+				},
+				{
+					"filename": "I1KG9128004.tif",
+					"pagination": "1'a",
+					"rotation": 180,
+					"rotation-reason": "scan",
+					"note": [
+						"rotating 180° because of the scan being upside down"
+					]
+				},
+				{
+					"type": "missing",
+					"subtype": "from-scan",
+					"pagination": "1'b"
+				},
+				{
+					"type": "duplicate",
+					"filename": "I1KG9128005.tif",
+					"subtype": "from-scan",
+					"display": false,
+					"of-file": "I1KG9128004.tif"
+				}
 			]
-		},
-		{
-			"type": "missing",
-			"subtype": "from-scan",
-			"pagination": "1'b"
-		},
-		{
-			"type": "duplicate",
-			"filename": "I1KG9128005.tif",
-			"subtype": "from-scan",
-			"display": false,
-			"of-file": "I1KG9128004.tif"
 		}
-	]
+	}
 }

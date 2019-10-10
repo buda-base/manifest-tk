@@ -12,23 +12,20 @@
 			"log": "initial version"
 		}
 	],
-	"pagination": [
-		{
-			"id": "default",
+	"pagination": {
+		"folios1": {
 			"type": "potifolios",
 			"note": "from the original blockprint"
 		},
-		{
-			"id": "bates",
+		"bates": {
 			"type": "bates",
 			"note": "bates numbers added on the xerox reprint"
 		},
-		{
-			"id": "intro",
+		"intro": {
 			"type": "modern",
 			"note": "bates numbers added on the xerox reprint"
 		}
-	],
+	},
 	"pagination-sections": [
 		{
 			"id": "intro",
@@ -43,26 +40,30 @@
 			"name": {"value": "section2", "lang": "bo-x-ewts"}
 		}
 	],
-	"image-info": [
-		{
-			"filename": "I1KG9128001.tif",
-			"pagination": {"intro": "i", "section": "intro"},
-			"note": [
-				"this is an intro page, some editions would have that before the scans"
+"view": {
+		"view1": {
+			"imagelist": [
+				{
+					"filename": "I1KG9128001.tif",
+					"pagination": {"intro": "i", "section": "intro"},
+					"note": [
+						"this is an intro page, some editions would have that before the scans"
+					]
+				},
+				{
+					"subtype": "blank",
+					"thumbnail": true,
+					"filename": "I1KG9128002.tif",
+					"pagination": {"default": "1a", "bates": "1", "original": {"value": "section 1, 1", "lang": "bo-x-ewts"}, "section": "s1"},
+					"note": "this work has several section, each restarting the pagination at 1a"
+				},
+				{
+					"subtype": "title",
+					"filename": "I1KG9128003.tif",
+					"pagination": {"default": "1b", "bates": "2", "original": null, "section": "s1"},
+					"note": "pagination is indicated only on recto, not on verso"
+				}
 			]
-		},
-		{
-			"subtype": "blank",
-			"thumbnail": true,
-			"filename": "I1KG9128002.tif",
-			"pagination": {"default": "1a", "bates": "1", "original": {"value": "section 1, 1", "lang": "bo-x-ewts"}, "section": "s1"},
-			"note": "this work has several section, each restarting the pagination at 1a"
-		},
-		{
-			"subtype": "title",
-			"filename": "I1KG9128003.tif",
-			"pagination": {"default": "1b", "bates": "2", "original": null, "section": "s1"},
-			"note": "pagination is indicated only on recto, not on verso"
 		}
-	]
+	}
 }
